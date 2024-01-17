@@ -3,39 +3,37 @@
     "keymap": "default",
     "macros": [
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            "tmux",
+            {"action":"tap", "keycodes": ["ENT"]}
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            "tmux detach",
+            {"action":"tap", "keycodes": ["ENT"]}
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            "tmux attach",
+            {"action":"tap", "keycodes": ["ENT"]}
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+
+            "tmux ls",
+            {"action":"tap", "keycodes": ["ENT"]}
+
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            "vim",
+            {"action":"tap", "keycodes": ["ENT"]}
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            "t",
+            {"action":"up", "keycodes": ["B"]}
         ],
         [
-            {"action":"tap", "keycodes": ["F1"]},
-            {"action":"delay", "duration": 1000},
-            {"action":"tap", "keycodes": ["PGDN"]}
+            "clear",
+            {"action":"tap", "keycodes": ["ENT"]}
         ],
         [
             "neofetch",
