@@ -1,0 +1,117 @@
+{
+    "keyboard": "4stm4/tmux_pad",
+    "keymap": "default",
+    "macros": [
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            {"action":"tap", "keycodes": ["F1"]},
+            {"action":"delay", "duration": 1000},
+            {"action":"tap", "keycodes": ["PGDN"]}
+        ],
+        [
+            "neofetch",
+            {"action": "tap", "keycodes": ["ENT"]}
+        ],
+        // New vertiac pane
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            "%",
+            {"action":"up", "keycodes": ["B"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["LSFT", "QUOTE"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LSFT", "QUOTE"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["X"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["X"]},
+            "y",
+            {"action": "tap", "keycodes": ["ENT"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            "q",
+            {"action":"up", "keycodes": ["B"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["LEFT"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LEFT"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["DOWN"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["DOWN"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["UP"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["UP"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["RGHT"]},
+            {"action":"up", "keycodes": ["B"]},
+            {"action":"up", "keycodes": ["RGHT"]}
+        ]
+    ],
+    "layout": "LAYOUT_ortho_4x4",
+    "layers": [
+        ["QK_MACRO_0", "QK_MACRO_1", "QK_MACRO_2", "QK_MACRO_3",
+        "QK_MACRO_4", "QK_MACRO_5", "QK_MACRO_6", "QK_MACRO_7",
+        "QK_MACRO_8", "QK_MACRO_9", "QK_MACRO_10", "QK_MACRO_11",
+        "QK_MACRO_12", "QK_MACRO_13", "QK_MACRO_14", "QK_MACRO_15"]
+    ]
+}
